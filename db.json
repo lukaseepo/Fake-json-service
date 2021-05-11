@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Luka",
+      "age": 16,
+      "email": "Luka@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Giorgi",
+      "age": 18,
+      "email": "Giorgi@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Nika",
+      "age": 19,
+      "email": "Nika@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Gocha",
+      "age": 35,
+      "email": "Gocha@gmail.com"
+    },
+    {
+      "name": "luka",
+      "email": "luka23124124@gmail.com",
+      "password": "2131242151241242",
+      "id": 5
+    }
+  ]
+}
