@@ -1,0 +1,21 @@
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+        <mat-label>Username</mat-label>
+        <input name="firstname" [(ngModel)]='name' matInput placeholder="Your Name">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <mat-label>Email</mat-label>
+        <input name="email" [(ngModel)]='email' type="email" matInput placeholder="Your Email">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <mat-label>Password</mat-label>
+        <input name="password" [(ngModel)]='password' type="password" matInput placeholder="Your Password">
+    </mat-form-field>
+    <input [disabled]="password === '' || email === ''  || name === '' " (click)='addInfo()' class="button" type="submit" value="Add">
+</form>
+
+<div class="item">
+    <h3 *ngFor='let item of list'>
+        Username:{{item.name}} Email:{{item.email}} Password:{{item.password}}
+    </h3>
+</div>

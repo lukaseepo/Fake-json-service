@@ -1,0 +1,49 @@
+body {
+    display: flex;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: cadetblue;
+    transition: 1.5s;
+    font-size: 30px;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: aquamarine;
+    transition: 1.5s;
+    color: cadetblue;
+}
+
+.item {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    flex-direction: column;
+}

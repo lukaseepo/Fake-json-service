@@ -24,5 +24,6 @@ export class DetailComponent implements OnInit {
       this.list.push(item);
     })
   }
+  
 
 }

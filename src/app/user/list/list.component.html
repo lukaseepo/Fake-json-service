@@ -1,5 +1,5 @@
 <div class="items">
-    <a *ngFor='let item of list' href="detail/{{item.id}}">
+    <a *ngFor='let item of list' routerLink='detail/{{item.id}}'>
         <div class="item">
             user {{item.id}}
         </div>
